@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header-content {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header {
+    background-color: #f182cc;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .section-primary {
+    background-color: #f8f9fa;
+  }
+  
+  .section-secondary {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .produto-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .produto {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .produto:hover {
+    transform: translateY(-5px);
+  }
+  
+  .produto img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .produto:hover img {
+    filter: brightness(110%);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+
+
+.subtotal {
+    margin-top: 10px;
+  }
+  
+
+  input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+
+  button {
+    background-color: #f182cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #bd02bd;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+
+#beneficios {
+    background-color: #f2f2f2; 
+    text-align: center; 
+    padding: 50px 0; 
+    color:#343a40;
+  }
+
+  #beneficios h2 {
+    color: black;
+  }
+  
+  .beneficios-curiosidades {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+  }
+  
+  .beneficio-curiosidade {
+    width: 45%;
+    margin-bottom: 30px; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .beneficio-curiosidade h3 {
+    color: #f182cc; 
+  }
+  
+  @media (max-width: 768px) {
+    .beneficio-curiosidade {
+      width: 90%; 
+    }
+  }
+
+  header nav ul li a {
+    transition: color 0.5s ease; 
+  }
+
+  header nav ul li a:hover {
+    color: #353535; 
+  }

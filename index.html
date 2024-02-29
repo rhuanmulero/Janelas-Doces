@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janelas Doces</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="https://th.bing.com/th/id/R.40c969aa6f4201276ed71ee2fdfd2766?rik=SbVDIiu86CbtBA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-NZXXGmSLMv8%2fUzBuUn11reI%2fAAAAAAAAACs%2fcGZZ0OZI3R0%2fs1600%2fPrincess.png&ehk=BN2%2bdroIbQjbBWnX1lZAI%2b2dDc2dvHGJeHC1ZRViggY%3d&risl=&pid=ImgRaw&r=0" type="image/x-icon"> 
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1>Janelas Doces</h1>
+        <nav>
+          <ul>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#beneficios">Benefícios e Curiosidades</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <section id="produtos" class="section-primary">
+    <div class="container">
+      <h2>Nossos Produtos</h2>
+      <div class="produto-card">
+        <div class="produto">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_2X_652984-MLB47354620820_092021-F.jpg" alt="Jujubinhas">
+          <h3>Jujubinhas</h3>
+          <p>Preço: R$ 1,00 por unidade</p>
+          <form class="form-produto">
+            <label for="jujubinhas">Quantidade:</label>
+            <input type="number" id="jujubinhas" name="jujubinhas" min="0" value="0">
+          </form>
+          <p class="subtotal">Subtotal: R$ <span id="subtotal-jujubinhas">0,00</span></p>
+        </div>
+
+
+        <div class="produto">
+          <img src="https://castronaves.vteximg.com.br/arquivos/ids/169395-1000-1000/11224.jpg?v=636620805254100000" alt="Balas Freegells">
+          <h3>Balas Freegells</h3>
+          <p>Preço: R$ 2,00 por unidade</p>
+          <form class="form-produto">
+            <label for="freegells">Quantidade:</label>
+            <input type="number" id="freegells" name="freegells" min="0" value="0">
+          </form>
+          <p class="subtotal">Subtotal: R$ <span id="subtotal-freegells">0,00</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="beneficios" class="section-secondary">
+    <div class="container">
+      <h2>Benefícios e Curiosidades</h2>
+      <div class="beneficios-curiosidades">
+        <div class="beneficio-curiosidade">
+          <h3>Jujubinhas</h3>
+          <p>As jujubinhas são uma deliciosa e colorida guloseima feita a partir de gelatina, açúcar e aromatizantes. Elas são populares entre crianças e adultos e vêm em uma variedade de sabores, como morango, uva, limão e laranja.</p>
+          <p>Além de serem saborosas, as jujubinhas também podem ser uma fonte de energia rápida devido ao açúcar presente nelas. Devido ao seu tamanho pequeno e embalagem individual, as jujubas são uma ótima opção para quem deseja controlar suas porções de doces. É fácil saber quanto está consumindo, o que pode ajudar a evitar exageros.</p>
+        </div>
+        <div class="beneficio-curiosidade">
+          <h3>Balas Freegells</h3>
+          <p>As balas Freegells são conhecidas por seu sabor refrescante de menta, proporcionando uma sensação de frescor agradável à boca. Elas são ideais para manter o hálito fresco ao longo do dia.</p>
+          <p>Além disso, as balas Freegells podem ajudar a aliviar dores de garganta leves e irritações, graças às propriedades refrescantes da menta. No entanto, elas não substituem tratamentos médicos adequados para problemas de saúde mais graves.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section-secondary">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <p>Para fazer pedidos ou tirar dúvidas, entre em contato conosco:</p>
+      <p>Email: rhuanmscontato@gmail.com</p>
+      <p>Telefone: (13) 99199-2859</p>
+      <button onclick="window.location.href='https://api.whatsapp.com/send?phone=5513991992859&text=Ol%C3%A1,%20eu%20gostaria%20de%20%3CInsira%20a%20Quantidade%20de%20Unidades%3E%20de%20%3CInsira%20o%20Produto%3E'">Peça Aqui</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Janelas Doces. <br> Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
